@@ -1,0 +1,37 @@
+.student_banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f5f7;
+}
+.student_banner img{
+    margin-top: 4px;
+    width: 35%;
+}
+
+.phone_fam{
+    height: 70svh;
+    background-color: #000;
+    background-image: url('/iphone_family.jpg');
+    background-size: 75%; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    color: #efefef;
+}
+
+@media (max-width:768px) {
+    .student_banner{
+        padding: 5% 0;
+    }
+   
+    .student_banner img{
+        margin-top: 4px;
+        width: 80%;
+    }
+    .phone_fam{
+        height: 70svh;
+        background-size: cover; 
+        color: #efefef;
+    }
+}

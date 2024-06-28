@@ -1,0 +1,17 @@
+.footer_links{
+    color: #777777;
+}
+.footer_links h3{
+    font-weight: bold;
+    margin-bottom: 8px;
+    margin-top: 12px;
+}
+.footer_links li{
+    margin-bottom: 8px;
+}
+.copyright_links a{
+    margin: 0 4px;
+}
+.footer hr{
+    border-top: 1px solid rgb(192, 192, 192);
+}

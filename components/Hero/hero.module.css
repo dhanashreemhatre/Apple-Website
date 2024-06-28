@@ -1,0 +1,13 @@
+.background_img{
+    height: 80svh;
+    background-image: url('./hero/hero1.jpg');
+    background-size: 140%; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+@media (max-width:768px) {
+    .background_img{
+        height: 80svh;
+        background-size: cover; 
+    }
+}
