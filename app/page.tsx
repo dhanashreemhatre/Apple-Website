@@ -4,6 +4,8 @@ import Hero from './../components/Hero/page'
 import Footer from './../components/Footer/page'
 import styles from './main.module.css'
 import Button from '../components/Button/page'
+import Slider from '../components/Slider/page'
+import slides from '../constant/apple-movies'
 
 export default function Home() {
   return (
@@ -24,6 +26,9 @@ export default function Home() {
             <Button name="Learn more" btnStyle="primary"/>
             <Button name="Shop iPhone" btnStyle="secondary"/>
           </div>
+        </div>
+        <div className="my-3">
+        <Slider slides={slides} showButtons={false} showDots={true} autoSlide={false} slideInterval={3000} visibleSlides={2} />
         </div>
       </main>
       <Footer />
